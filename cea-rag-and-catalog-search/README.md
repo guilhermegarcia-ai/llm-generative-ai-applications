@@ -5,14 +5,14 @@ C&A is a global fashion retail company originally founded in the Netherlands in 
 
 This project is a virtual assistant built using CrewAI, FastAPI, and Retrieval-Augmented Generation (RAG) techniques. It simulates an automated support system for an e-commerce (C&A), capable of:
 
+<p align="center">
+<img src="https://www.caruarushopping.com/wp-content/uploads/2019/09/cea.jpg" width=300 height=300>
+</p>
+
 - Helping customers find products in the catalog  
 - Answering questions based on C&A’s customer service (SAC) policies  
 - Performing semantic search using embeddings  
 - Storing interaction history in a local SQLite database  
-
-<p align="center">
-<img src="https://www.caruarushopping.com/wp-content/uploads/2019/09/cea.jpg" width=600 height=300>
-</p>
 
 ## Features
 
@@ -30,7 +30,7 @@ This project is a virtual assistant built using CrewAI, FastAPI, and Retrieval-A
 - The `/historico` endpoint allows access to this log.
 
 ## Project Structure
-
+```
 ├── main.py # Main API code
 ├── db/
 │ └── historico.db # SQLite database with interaction history
@@ -39,6 +39,7 @@ This project is a virtual assistant built using CrewAI, FastAPI, and Retrieval-A
 │ ├── dados-produtos.json # Product data for catalog search
 │ └── dados-sac.md # Knowledge base for RAG (customer service)
 └── .env # Environment variables (API keys)
+```
 
 ## API Endpoints
 
