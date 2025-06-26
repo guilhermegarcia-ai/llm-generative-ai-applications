@@ -30,7 +30,7 @@ This project is a virtual assistant built using CrewAI, FastAPI, and Retrieval-A
 - The `/historico` endpoint allows access to this log.
 
 ## Project Structure
-```
+``` bash
 ├── main.py # Main API code
 ├── db/
 │ └── historico.db # SQLite database with interaction history
@@ -45,3 +45,19 @@ This project is a virtual assistant built using CrewAI, FastAPI, and Retrieval-A
 
 - `POST /mensagem`: Sends a message to the agent (`type: "sac"` or `"catalogo"`)
 - `GET /historico`: Returns the interaction history with timestamp
+
+## Use Examples
+'''''
+### 1. API RESTful POST RAG (Retrieval-Augmented Generation)
+`Scenario 01`
+`Scenario 02`
+`Scenario 03`
+`Scenario 04`
+
+### 2. API RESTful POST Product Search (Catalog)
+`Scenario 01`
+`Scenario 02`
+`Scenario 03`
+
+### 3. API RESTful Get Historical Data
+`Scenario 01`
