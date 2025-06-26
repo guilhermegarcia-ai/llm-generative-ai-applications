@@ -1,0 +1,48 @@
+###
+POST http://localhost:8000/mensagem
+Content-Type: application/json
+
+{
+  "tipo": "sac",
+  "texto": "Meu pedido número 12345 está atrasado, qual o status?"
+}
+
+
+###
+POST http://localhost:8000/mensagem
+Content-Type: application/json
+
+{
+  "tipo": "sac",
+  "texto": "Quando vou receber o reembolso do meu pedido?"
+}
+
+
+###
+POST http://localhost:8000/mensagem
+Content-Type: application/json
+
+{
+  "tipo": "sac",
+  "texto": "Gostaria de falar com um vendedor. Como eu faço?"
+}
+
+
+###
+POST http://localhost:8000/mensagem
+Content-Type: application/json
+
+{
+  "tipo": "sac",
+  "texto": "Ninguém atende o telefone, qual o outro meio de contato?"
+}
+
+
+###
+POST http://localhost:8000/mensagem
+Content-Type: application/json
+
+{
+  "tipo": "sac",
+  "texto": "Qual a idade do ator Tom Cruise?"
+}

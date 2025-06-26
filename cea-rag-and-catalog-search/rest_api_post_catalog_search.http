@@ -1,0 +1,28 @@
+###
+POST http://localhost:8000/mensagem
+Content-Type: application/json
+
+{
+  "tipo": "catalogo",
+  "texto": "Gostaria de saber mais sobre as camisetas de manga longa disponíveis"
+}
+
+
+###
+POST http://localhost:8000/mensagem
+Content-Type: application/json
+
+{
+  "tipo": "catalogo",
+  "texto": "Roupas infantis"
+}
+
+
+###
+POST http://localhost:8000/mensagem
+Content-Type: application/json
+
+{
+  "tipo": "catalogo",
+  "texto": "Qual a idade do ator Leonardo DiCaprio?"
+}
