@@ -1,12 +1,12 @@
 # C&A Virtual Assistant with FastAPI, CrewAI and RAG
 
-**Overview**  
+## Overview
 C&A is a global fashion retail company originally founded in the Netherlands in 1841. In Brazil, where this project is inspired, C&A is one of the leading clothing retailers, known for offering affordable fashion for all styles and ages. The company operates both physical stores and an e-commerce platform across the country.
 
 This project is a virtual assistant built using CrewAI, FastAPI, and Retrieval-Augmented Generation (RAG) techniques. It simulates an automated support system for an e-commerce (C&A), capable of:
 
 <p align="center">
-<img src="https://www.caruarushopping.com/wp-content/uploads/2019/09/cea.jpg" width=300 height=300>
+<img src="https://www.caruarushopping.com/wp-content/uploads/2019/09/cea.jpg" width=200 height=300>
 </p>
 
 - Helping customers find products in the catalog  
